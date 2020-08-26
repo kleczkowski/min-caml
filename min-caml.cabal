@@ -1,0 +1,20 @@
+cabal-version:       2.4
+name:                min-caml
+version:             0.1.0.0
+synopsis:            An educational compiler for a minimal subset of OCaml, written in Haskell
+homepage:            https://github.com/repaj/min-caml
+bug-reports:         https://github.com/repaj/min-caml/issues
+license:             MIT
+license-file:        LICENSE
+author:              Konrad Kleczkowski
+maintainer:          konrad.kleczkowski@gmail.com
+copyright:           Copyright (c) 2020 Konrad Kleczkowski
+category:            Language
+
+executable mlc
+  main-is:             Main.hs
+  -- other-modules:
+  -- other-extensions:
+  build-depends:       base == 4.*
+  hs-source-dirs:      app
+  default-language:    Haskell2010
